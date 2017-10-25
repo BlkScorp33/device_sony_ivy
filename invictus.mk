@@ -17,6 +17,6 @@
 $(call inherit-product, device/sony/ivy/full_ivy.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/invictus/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_ivy
+PRODUCT_NAME := inv_ivy
